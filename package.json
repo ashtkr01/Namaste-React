@@ -1,0 +1,26 @@
+{
+  "name": "chapter-03---igniting-our-app",
+  "version": "1.0.0",
+  "description": "This is the tutorial material that I have followed.",
+  "source": "index.html",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Ashish Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
